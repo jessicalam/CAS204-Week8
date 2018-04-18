@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* Jessica's CSS Document.
+NOTE: You can replace my name with your name - this part up here is a CSS comment and is not telling the web browser to change the appearance of your html page(s). You could also put other things here, like the colors you picked for a quick reference. I like to do that so I can easily copy and paste the hex numbers when I need them. For Example:
+dark purple: #492174
+ruby:  #B93232
+yellow: #CABD28
+teal: #138988
+black: black
+*/
+
+
+
+/* the html element below is the "background" of your page */
+html {
+font-family: 	"Arial", Verdana,sans-serif;
+background-image: url(darkbluepaint.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+body {
+	font-family: 'Montserrat', 'Roboto', sans-serif;
+	width: 761px;
+	margin: 1.5em auto; /* this + a defined width, centers the body content */
+	border-color: #303;
+	border-style: solid;
+	border-width: 10px;
+	padding: 50px;
+	background-image: url(white-texture.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+
+}
+
+h1 {
+	font-family: 	"Arial", Verdana,sans-serif;
+	text-align: center;
+	background-color: #3CF;
+	color: white;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+h2 {
+	font-family: 	"Arial", Verdana,sans-serif;
+	padding: 7px;
+	color: black;
+}
+
+h3 {
+	font-family: 	"Arial", Verdana,sans-serif;
+	color: black;
+}
+/* navigation */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+		list-style-type: none;
+		border: 5px solid #138988;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #492174;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+
+
+
+
+/* IMPORTANT: this will put a border around ALL images - so the banner AND the image of you. You may want to remove the border or change it! */
+img {
+	border-color: #B93232;
+	border-style: dotted;
+	border-width: 5px;
+}
+
+
+/* The code below here alters your links */
+a {
+  font-weight: bold;
+	text-decoration: none;
+	color: #492174;
+
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #138988;
+	font-weight: bold;
+}
+
+a:visited {
+	text-decoration: line-through;
+}
+
+a:active {
+	background-color: #CABD28;
+}
+
+.banner {
+	width: 400px;
+	height: auto;
+
+}
+.portrait {
+	height: 100px;
+	width:100px;
+}
